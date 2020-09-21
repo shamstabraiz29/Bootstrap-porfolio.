@@ -6,8 +6,7 @@ body {
   word-spacing: 2px;
 }
 #showcase {
-  background-image: linear-gradient(rgb(0, 0, 80), rgba(0, 0, 0, 0)),
-    url(../assets/images/1.jpg);
+  background-image: linear-gradient(rgb(0, 0, 80), rgba(12, 10, 10, 0)),url(../images/shams.jpg);
   background-size: cover;
   height: 40rem;
   text-align: center;
