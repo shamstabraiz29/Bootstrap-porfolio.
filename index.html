@@ -24,54 +24,142 @@
   <body>
     <header id="showcase">
       <div class="conatainer-fliud">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#showcase">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about-content">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#education-content">Education</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#experience-content">Experience</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#portfolio-content">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#journal-content">Journal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#contact-content">Contact</a>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
+        <div class="row nav-row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href="#">BaiG</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#showcase"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#about-content"
+                      >About</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#education-content"
+                      >Education</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#experience-content"
+                      >Experience</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#portfolio-content"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#journal-content"
+                      >Journal</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="#contact-content"
+                      >Contact</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Download CV
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Urdu</a></li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control mr-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row show-row">
+          <div class="col">
+            <div class="showcase-content">
+              <img
+                src="assets/images/20.jpg"
+                alt=""
+                class="rounded-circle"
+                width="200px"
+              />
+              <h1 class="My-name">
+                Hello<span class="text-primary">.</span> I am
+                <span> Shams Tabraiz</span>
+              </h1>
+              <h2>Graphic <span class="text-primary">/</span> Web Designer</h2>
+              <p style="margin: auto; width: 70%">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                debitis dolor eius non nostrum saepe dignissimos autem sequi,
+                obcaecati minima minus velit quas accusamus ipsam eum laboriosam
+                laborum ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                debitis dolor eius non nostrum saepe dignissimos autem sequi,
+                obcaecati minima minus velit quas accusamus ipsam fugit libero.
+              </p>
             </div>
           </div>
-        </nav>
-        <div class="showcase-content">
-          <img
-          src="assets/images/20.jpg"
-          alt=""
-          class="rounded-circle"
-          width="200px"
-        />
-          <h1 class="My-name">Hello<span class="text-primary">.</span> I am <span> Shams Tabraiz</span></h1>
-          <h2>Graphic <span class="text-primary">/</span> Web Designer</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, debitis dolor eius non nostrum saepe dignissimos autem sequi, obcaecati minima minus velit quas accusamus ipsam eum laboriosam laborum  ipsum dolor sit amet consectetur adipisicing elit. Nisi, debitis dolor eius non nostrum saepe dignissimos autem sequi, obcaecati minima minus velit quas accusamus ipsam fugit libero.</p>
-      </div> 
+        </div>
       </div>
     </header>
     <!-- About section -->
@@ -85,24 +173,19 @@
         </div>
         <br />
         <div class="row">
-          <div class="col-md-4  col-lg-4">
-            <i class="fas fa-user text-primary"></i>
-            <h3 class="text-primary"> Full Name
-            </h3>
+          <div class="col-md-4 col-lg-4">
+            <i class="fas fa-user text-primary mb-2"></i>
+            <h3 class="text-primary">Full Name</h3>
             <p class="text-secondary">Shams Tabraiz</p>
           </div>
-          <div class="col-md-4  col-lg-4">
-            <i class="fas fa-calendar text-primary"></i>
-            <h3 class="text-primary">
-               Birthday
-            </h3>
+          <div class="col-md-4 col-lg-4">
+            <i class="fas fa-calendar text-primary mb-2"></i>
+            <h3 class="text-primary">Birthday</h3>
             <p class="text-secondary">jun.29,1999</p>
           </div>
-          <div class="col-md-4  col-lg-4">
-            <i class="fas fa-map-marker text-primary"></i>
-            <h3 class="text-primary">
-              Address
-            </h3>
+          <div class="col-md-4 col-lg-4">
+            <i class="fas fa-map-marker text-primary mb-2"></i>
+            <h3 class="text-primary">Address</h3>
             <p class="text-secondary">Noor Colony jutail Gilgit</p>
           </div>
         </div>
@@ -123,14 +206,14 @@
               fugiat.
             </p>
           </div>
-          <div class="col-md-4  col-lg-4">
+          <div class="col-md-4 col-lg-4">
             <h3 class="text-primary">Best logo 2018</h3>
             <p class="text-secondary">
               voluptate velit esse cillum dolore eu fugiat nulla pariatur dolore
               fugiat.
             </p>
           </div>
-          <div class="col-md-4  col-lg-4">
+          <div class="col-md-4 col-lg-4">
             <h3 class="text-primary">Best Branding 2017</h3>
             <p class="text-secondary">
               voluptate velit esse cillum dolore eu fugiat nulla pariatur dolore
@@ -149,17 +232,17 @@
         </div>
         <br /><br />
         <div class="row">
-          <div class="col-md-4  col-lg-4">
+          <div class="col-md-4 col-lg-4">
             <i class="fas fa-rocket text-primary"></i>
             <h3>325</h3>
             <p class="text-secondary">Websites Launched</p>
           </div>
-          <div class="col-md-4  col-lg-4">
+          <div class="col-md-4 col-lg-4">
             <i class="fas fa-pen text-primary"></i>
             <h3>225</h3>
             <p class="text-secondary">Logos Designed</p>
           </div>
-          <div class="col-md-4  col-lg-4">
+          <div class="col-md-4 col-lg-4">
             <i class="fas fa-user text-primary"></i>
             <h3>145</h3>
             <p class="text-secondary">Template Users</p>
@@ -175,7 +258,7 @@
           <h1>Skills<span class="text-primary">.</span></h1>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-6">
+          <div class="col-md-4 col-lg-6">
             <p>Photoshop</p>
             <progress value="9" max="20"></progress>
             <p>CSS3</p>
@@ -183,7 +266,7 @@
             <p>SASS</p>
             <progress value="14" max="20"></progress>
           </div>
-          <div class="col-md-4  col-lg-6">
+          <div class="col-md-4 col-lg-6">
             <p>Photoshop</p>
             <progress value="9" max="20"></progress>
             <p>Ilustrator</p>
@@ -202,13 +285,13 @@
           <h1>Education<span class="text-primary">.</span></h1>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-4">
-            <p class="text-secondary">2008-2010</p>
+          <div class="col-md-4 col-lg-4">
+            <p>2008-2010</p>
             <h3>Academy of Arts</h3>
             <h4 class="text-secondary">Graphic Design</h4>
             <p class="text-secondary">london FL</p>
           </div>
-          <div class="col-md-4  col-lg-8">
+          <div class="col-md-4 col-lg-8">
             <p class="text-secondary">
               dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -219,13 +302,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-4">
-            <p class="text-secondary">2010-2012</p>
+          <div class="col-md-4 col-lg-4">
+            <p>2010-2012</p>
             <h3>Tech University</h3>
             <h4 class="text-secondary">Technology</h4>
             <p class="text-secondary">london FL</p>
           </div>
-          <div class="col-md-4  col-lg-8">
+          <div class="col-md-4 col-lg-8">
             <p class="text-secondary">
               dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -236,13 +319,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-4">
-            <p class="text-secondary">2012-2014</p>
+          <div class="col-md-4 col-lg-4">
+            <p>2012-2014</p>
             <h3>Web University</h3>
             <h4 class="text-secondary">Web Design</h4>
             <p class="text-secondary">london FL</p>
           </div>
-          <div class="col-8-md-4  col-lg-8">
+          <div class="col-8-md-4 col-lg-8">
             <p class="text-secondary">
               dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -262,13 +345,13 @@
           <h1>Experience<span class="text-primary">.</span></h1>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-4">
-            <p class="text-secondary">2016-2017</p>
+          <div class="col-md-4 col-lg-4">
+            <p>2016-2017</p>
             <h3>Creative Agency</h3>
             <h4 class="text-secondary">Graphic Design</h4>
             <p class="text-secondary">london FL</p>
           </div>
-          <div class="col-md-4  col-lg-8">
+          <div class="col-md-4 col-lg-8">
             <p class="text-secondary">
               dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -279,13 +362,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-4">
-            <p class="text-secondary">2017-2018</p>
+          <div class="col-md-4 col-lg-4">
+            <p>2017-2018</p>
             <h3>TTech Co</h3>
             <h4 class="text-secondary">Technology</h4>
             <p class="text-secondary">london FL</p>
           </div>
-          <div class="col-8-md-4  col-lg-8">
+          <div class="col-8-md-4 col-lg-8">
             <p class="text-secondary">
               dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -296,13 +379,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-4">
-            <p class="text-secondary">2019-Present</p>
+          <div class="col-md-4 col-lg-4">
+            <p>2019-Present</p>
             <h3>Best Com</h3>
             <h4 class="text-secondary">Web Design</h4>
             <p class="text-secondary">london FL</p>
           </div>
-          <div class="col-md-4  col-lg-8">
+          <div class="col-md-4 col-lg-8">
             <p class="text-secondary">
               dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -313,82 +396,114 @@
           </div>
         </div>
       </div>
-    </section><br>
+    </section>
+    <br />
     <!-- portfolio section -->
     <section id="portfolio-content">
       <div class="container">
         <div class="row">
           <h1>Portfolio<span class="text-primary">.</span></h1>
         </div>
-          <div class="col">
-            <ul>
-              <li><a href="">All</a></li>
-              <li><a href="">Design</a></li>
-              <li><a href="">Creative</a></li>
-              <li><a href="">Web Design</a></li>
-            </ul>
-          </div>
-        </div><br>
-        <div class="container">
-         <div class="row">
-           <div class="col-md-4  col-lg-4">
+        <div class="col">
+          <ul>
+            <li><a href="">All</a></li>
+            <li><a href="">Design</a></li>
+            <li><a href="">Creative</a></li>
+            <li><a href="">Web Design</a></li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-4">
             <div class="single-works">
-              <img src="assets/images/2.jpg" alt="">
+              <img src="assets/images/2.jpg" alt="" />
               <div class="overlay-text">
-                <h3 class="title">Project 1</h3>
-                <span class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat reprehenderit magnam veritatis nisi sed minus pariatur modi, asperiores sint fuga, ducimus neque architecto ut, laudantium in eaque iure tempore aperiam!</span>
+                <a href="" class="title">Project 1</a>
+                <span class="post"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat reprehenderit magnam veritatis nisi sed minus
+                  pariatur modi, asperiores sint fuga, ducimus neque architecto
+                  ut, laudantium in eaque iure tempore aperiam!</span
+                >
               </div>
             </div>
-           </div>
-           <div class="col-md-4  col-lg-4">
+          </div>
+          <div class="col-md-4 col-lg-4">
             <div class="single-works">
-              <img src="assets/images/3.jpg" alt="">
+              <img src="assets/images/3.jpg" alt="" />
               <div class="overlay-text">
-                <h3 class="title">Poject 2</h3>
-                <span class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas assumenda alias ea, vero ratione sit accusantium eligendi unde quod nulla, corrupti nihil ab nostrum sint eos perspiciatis possimus molestiae.</span>
+                <a href="" class="title">Poject 2</a>
+                <span class="post"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corporis voluptas assumenda alias ea, vero ratione sit
+                  accusantium eligendi unde quod nulla, corrupti nihil ab
+                  nostrum sint eos perspiciatis possimus molestiae.</span
+                >
               </div>
             </div>
-           </div>
-           <div class="col-md-4  col-lg-4">
+          </div>
+          <div class="col-md-4 col-lg-4">
             <div class="single-works">
-              <img src="assets/images/4.jpg" alt="">
+              <img src="assets/images/4.jpg" alt="" />
               <div class="overlay-text">
-                <h3 class="title">Project 3</h3>
-                <span class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint magnam possimus necessitatibus officia facilis minus, quas quis aspernatur harum neque asperiores facere debitis error vitae, aut veniam doloremque repudiandae perspiciatis.</span>
+                <a href="" class="title">Project 3</a>
+                <span class="post"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  magnam possimus necessitatibus officia facilis minus, quas
+                  quis aspernatur harum neque asperiores facere debitis error
+                  vitae, aut veniam doloremque repudiandae perspiciatis.</span
+                >
               </div>
             </div>
-           </div>
-         </div>
-         <div class="row">
-          <div class="col-md-4  col-lg-4">
-           <div class="single-works">
-             <img src="assets/images/8.jpg" alt="">
-             <div class="overlay-text">
-               <h3 class="title">Project 4</h3>
-               <span class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ducimus qui ipsam laudantium tempora non ex. Tenetur, praesentium molestiae ex architecto maiores sunt, eaque harum quae eos ad culpa commodi.</span>
-             </div>
-           </div>
-          </div>
-          <div class="col-md-4  col-lg-4">
-           <div class="single-works">
-             <img src="assets/images/9.jpg" alt="">
-             <div class="overlay-text">
-               <h3 class="title">project 5</h3>
-               <span class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellat, vero ipsam esse aliquam, possimus nisi aut assumenda maxime necessitatibus provident facilis quo adipisci ut magnam eos enim omnis repellendus?</span>
-             </div>
-           </div>
-          </div>
-          <div class="col-md-4  col-lg-4">
-           <div class="single-works">
-             <img src="assets/images/5.jpg" alt="">
-             <div class="overlay-text">
-               <h3 class="title">Project 5</h3>
-               <span class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quae nemo in neque earum cumque dignissimos ipsa accusantium placeat praesentium minima, omnis necessitatibus ullam eos sequi quis soluta minus? Ducimus.</span>
-             </div>
-           </div>
           </div>
         </div>
-       </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4">
+            <div class="single-works">
+              <img src="assets/images/8.jpg" alt="" />
+              <div class="overlay-text">
+                <a href="" class="title">Project 4</a>
+                <span class="post"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Laboriosam ducimus qui ipsam laudantium tempora non ex.
+                  Tenetur, praesentium molestiae ex architecto maiores sunt,
+                  eaque harum quae eos ad culpa commodi.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <div class="single-works">
+              <img src="assets/images/9.jpg" alt="" />
+              <div class="overlay-text">
+                <a href="" class="title">project 5</a>
+                <span class="post"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis repellat, vero ipsam esse aliquam, possimus nisi
+                  aut assumenda maxime necessitatibus provident facilis quo
+                  adipisci ut magnam eos enim omnis repellendus?</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4">
+            <div class="single-works">
+              <img src="assets/images/5.jpg" alt="" />
+              <div class="overlay-text">
+                <a href="" class="title">Project 6</a>
+                <span class="post"
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis quae nemo in neque earum cumque dignissimos ipsa
+                  accusantium placeat praesentium minima, omnis necessitatibus
+                  ullam eos sequi quis soluta minus? Ducimus.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Journal section -->
     <section id="journal-content">
@@ -397,7 +512,7 @@
           <h1>Journal<span class="text-primary">.</span></h1>
         </div>
         <div class="row">
-          <div class="col-md-4"  style="margin-bottom: 20px;">
+          <div class="col-md-4" style="margin-bottom: 20px">
             <div class="card">
               <img
                 class="card-img-top"
@@ -413,8 +528,9 @@
                 <a href="#" class="btn btn-primary">Read more</a>
               </div>
             </div>
-          </div><br>
-          <div class="col-md-4 " style="margin-bottom: 20px;">
+          </div>
+          <br />
+          <div class="col-md-4" style="margin-bottom: 20px">
             <div class="card">
               <img
                 class="card-img-top"
@@ -431,7 +547,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4  style="margin-bottom: 20px;>
+          <div class="col-md-4 style=" margin-bottom: 20px;>
             <div class="card">
               <img
                 class="card-img-top"
@@ -459,7 +575,7 @@
           <h1>Contact<span class="text-primary">.</span></h1>
         </div>
         <div class="row">
-          <div class="col-md-4  col-lg-6">
+          <div class="col-md-4 col-lg-6">
             <h3>Contact Description</h3>
             <p class="text-secondary">
               Nam massa ipsum, pulvinar sed felis quis, consequat dignissim
@@ -526,16 +642,17 @@
           </div>
         </div>
       </div>
-    </section><br><br>
+    </section>
+    <br /><br />
     <!-- footer -->
     <footer>
-      <div class="container-fluid bg-dark text-white">
+      <div class="container-fluid text-white">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-8">
             <p>© 2020 - <b>MyWork</b>- By Shams Tabraiz Baig</p>
           </div>
-          <div class= "col-md-6" style="text-align: center;">
-            <div class="icons text-primary">
+          <div class="col-md-4" style="text-align: center">
+            <div class="icons text-white">
               <i class="fab fa-facebook"></i>
               <i class="fab fa-twitter"></i>
               <i class="fab fa-google"></i>
